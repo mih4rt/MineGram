@@ -1,0 +1,8 @@
+# Token of your telegram-bot. You can get it in @BotFather in telegram.
+token: "123456789:ABCdefGHIJKLMNOPRS"
+
+# Unique id of your telegram-chat. You can get it on https://api.telegram.org/bot<token>/getUpdates.
+chat_id: "-123456789"
+
+# Id of thread in supergroup.
+thread_id: 1

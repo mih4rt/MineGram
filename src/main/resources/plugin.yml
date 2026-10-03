@@ -1,0 +1,14 @@
+name: MineGramChat
+version: '${version}'
+
+main: org.test.mineGramChat.MineGramChat
+api-version: '1.21.11'
+load: POSTWORLD
+
+dependencies:
+  bootstrap:
+    - maven:
+        group: org.telegram
+        name: telegrambots-longpolling
+        version: 7.10.0
+
