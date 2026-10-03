@@ -1,5 +1,5 @@
 # MineGram [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-Simple Paper-plugin for connection of chat in game with chat in telegram
+Simple Paper-plugin for connection of chat in game with chat in telegram.
 ## Features
   Copies messages from server-chat to chat in Telegram and back.
   
@@ -26,7 +26,8 @@ Simple Paper-plugin for connection of chat in game with chat in telegram
 ## Planned features
   -Add messages.yml and localize plugin for other languages.  
   -Make this plugin works with the default groups and channels.  
-  -Add MarkdownV2 and MiniMessage support.
+  -Add MarkdownV2 and MiniMessage support.  
+  -Add Chatty plugin support.
 
 # License
 Apache 2.0
