@@ -1,9 +1,9 @@
 # MineGram [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 Simple Paper-plugin for connection of chat in game with chat in telegram
 ## Features
-Copies messages from server-chat to chat in Telegram and back.
-Sends in Telegram messages about server starup/showdown, and players joining, leaving or dying.
-Now it only works with supergroups (it will be updated soon).
+  Copies messages from server-chat to chat in Telegram and back.
+  Sends in Telegram messages about server starup/showdown, and players joining, leaving or dying.
+  Now it only works with supergroups (it will be updated soon).
 ## Installation
 1. Create new Telegram-bot via @BotFather and save the token of new bot.
 2. Set privacy mode to DISABLED.
@@ -22,9 +22,9 @@ Now it only works with supergroups (it will be updated soon).
   thread_id: 1
 ```
 ## Planned features
--Add messages.yml and localize plugin for other languages.
--Make this plugin works with the default groups and channels.
--Add MarkdownV2 and MiniMessage support.
+  -Add messages.yml and localize plugin for other languages.
+  -Make this plugin works with the default groups and channels.
+  -Add MarkdownV2 and MiniMessage support.
 
 # License
 Apache 2.0
