@@ -7,7 +7,7 @@ Simple Paper-plugin for connection of chat in game with chat in telegram.
   ## Installation
 1. Create new Telegram-bot via @BotFather and save the token of new bot.
 2. Set privacy mode to DISABLED.
-3. Add bot to your supergroup. If you added bot before disabling privacy mode, remove it and add again.
+3. Add bot to your group. If you added bot before disabling privacy mode, remove it and add again.
 4. Add any command to the bot and execute it thread where you want it to send messages from server-chat.
 5. Open the https://api.telegram.org/bot<token>/getUpdates to get the id of supergroup and thread.
 6. Download the plugin on your server and setup the config.yml
