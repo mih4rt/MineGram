@@ -15,7 +15,7 @@ Simple Paper-plugin for connection of chat in game with chat in telegram.
   //# Token of your telegram-bot. You can get it in @BotFather in telegram.
   token: "123456789:ABCdefGHIJKLMNOPRS"
 
-  //# Unique id of your telegram group. You can get it on https://api.telegram.org/bot<token>/getUpdates.
+  //# Unique id of your telegram group. You can get it on https://api.telegram.org/bot/<token/>/getUpdates.
   chat_id: "-123456789"
 
   //# Id of thread in forum. You can ignore this field if your group is not a forum
