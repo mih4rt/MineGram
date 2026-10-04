@@ -5,6 +5,7 @@ import org.bukkit.Bukkit;
 import org.telegram.telegrambots.client.okhttp.OkHttpTelegramClient;
 import org.telegram.telegrambots.longpolling.util.LongPollingSingleThreadUpdateConsumer;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.objects.MessageEntity;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.message.Message;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
@@ -42,7 +43,7 @@ public class Bot implements LongPollingSingleThreadUpdateConsumer {
     public void consume(Update update) {
         if(update.hasMessage()){
             Message message = update.getMessage();
-            if(message.getChatId().toString().equals(chatId) && message.isSuperGroupMessage() && message.getMessageThreadId().equals(threadId)){
+            if(message.getChatId().toString().equals(chatId) && (message.getChat().getIsForum() == null || message.getMessageThreadId().equals(threadId))){
                 Bukkit.broadcast(MiniMessage.miniMessage().deserialize("<b><gradient:dark_aqua:aqua>Telegram</gradient></b> " + message.getFrom().getFirstName() + " <dark_gray>>></dark_gray> " + message.getText()));
             }
         }
